@@ -1,21 +1,13 @@
 package mx.edu.utng.tarjeta;
 
-public class TarjetaAnimada {
+public class TarjetaAnimada extends Tarjeta {
 	private String codigo;
-	private Fondo fondo;
-	private Dedicatoria dedicatoria;
-	private Imagen imagen;
+	private String fondo;
+	private String dedicatoria;
+	private String imagen;
+	private ArchivoDeTarjetas archivoDeTarjetas;
 	
-	public TarjetaAnimada(Fondo fondo, Imagen imagen){
-		this.fondo = fondo;
-		this.imagen = imagen;
-		this.dedicatoria = new Dedicatoria();
-	}
-	
-	public String getCodigo() {
-		return codigo;
-	}
-	public void setCodigo(String codigo) {
-		this.codigo = codigo;
+	public TarjetaAnimada(ArchivoDeTarjetas archivoDeTarjetas){
+		this.archivoDeTarjetas = archivoDeTarjetas;
 	}
 }

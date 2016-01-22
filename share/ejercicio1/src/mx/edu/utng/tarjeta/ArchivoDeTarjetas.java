@@ -2,19 +2,26 @@ package mx.edu.utng.tarjeta;
 
 public class ArchivoDeTarjetas {
 	private String nombre;
-	private TarjetaAnimada tarjetaAnimada;
-	
-	public ArchivoDeTarjetas(TarjetaAnimada tarjetaAnimada){
-		this.tarjetaAnimada = tarjetaAnimada;
-	}
 
-	public String getNombre() {
-		return nombre;
+	public void adicionar(Tarjeta tarjeta){
+		
 	}
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
+	public void modificar(Tarjeta tarjeta){
+		
 	}
-	
-
+	public void eliminar(TarjetaAnimada codigo){
+		
+	}
+	public void getDatos(){
+		
+	}
+	public void nroRegistros(){
+		
+	}
+	public void generarCodigo(){
+		
+	}
+	public void obtener(TarjetaAnimada codigo){
+		
+	}
 }

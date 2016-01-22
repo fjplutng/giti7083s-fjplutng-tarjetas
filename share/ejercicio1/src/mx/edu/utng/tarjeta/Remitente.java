@@ -1,14 +1,10 @@
 package mx.edu.utng.tarjeta;
 
-public class Remitente {
+public class Remitente extends Persona{
 	private String apodoRemitente;
-
-	public String getApodoRemitente() {
-		return apodoRemitente;
-	}
-
-	public void setApodoRemitente(String apodoRemitente) {
-		this.apodoRemitente = apodoRemitente;
-	}
+	private Tarjeta tarjeta;
 	
+	public Remitente(Tarjeta tarjeta){
+		this.tarjeta = tarjeta;
+	}
 }
