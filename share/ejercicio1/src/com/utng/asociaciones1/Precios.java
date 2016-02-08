@@ -8,5 +8,12 @@ public class Precios {
 	private float pre_dolar;
 	private float pre_cotizacionDolar;
 	
+	public Articulo articulo;
+	public Proveedor proveedor;
+	
+	public void Precios(Articulo articulo, Proveedor proveedor){
+		this.articulo = articulo;
+		this.proveedor = proveedor;
+	}
 
 }

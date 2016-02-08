@@ -1,6 +1,6 @@
 package com.utng.asociaciones1;
 
-public class Direccion {
+public class Direccion extends Proveedor{
 	private String Calle;
 	private String Numero;
 	private String Departamento;
@@ -9,6 +9,7 @@ public class Direccion {
 	private String Localidad;
 	private String Provincia;
 	private String Pais;
+	
 	
 	
 

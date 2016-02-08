@@ -9,5 +9,11 @@ public class Articulo {
 	private double art_cantidadCritica;
 	private double art_cantidadMinima;
 	
+	public Precios precio;
+	public Proveedor proveedor;
+	public void Articulo(Precios precios, Proveedor proveedor){
+		this.precio = precio;
+		this.proveedor = proveedor;
+	}
 
 }

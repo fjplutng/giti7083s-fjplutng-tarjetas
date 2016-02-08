@@ -12,6 +12,15 @@ public class Proveedor {
 	private String pr_web;
 	private int pr_CUIT;
 
+	private Precios precio;
+	private Articulo articulo;
+	private Calificacion calificacion;
+
+	public void Proveedor(Precios precio, Articulo articulo, Calificacion calificacion){
+		this.precio = precio;
+		this.articulo = this.articulo;
+		this.calificacion = calificacion;
+	}
 	
 	
 }
