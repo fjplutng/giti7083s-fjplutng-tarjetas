@@ -1,7 +1,14 @@
 package com.utng.ayc;
 
 public class Corazon {
+	/** 
+	 * OBJETO DE CORAZON
+	 */
 	private int ritmo;
+	/** 
+	 * METODOS DE CORAZON
+	 * @param valor
+	 */
 	private void cambiaRitmo(int valor){
 		
 	}
@@ -9,6 +16,7 @@ public class Corazon {
 		
 	}
 	/**
+	 * METODOS DEL OBJETO PROPIO DE ESTA CLASE
 	 * @return the ritmo
 	 */
 	public int getRitmo() {
@@ -20,5 +28,5 @@ public class Corazon {
 	public void setRitmo(int ritmo) {
 		this.ritmo = ritmo;
 	}
-
+	
 }

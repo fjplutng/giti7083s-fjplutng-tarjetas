@@ -12,7 +12,11 @@ public abstract class Persona {
 	 * @param nom
 	 * @param c
 	 */
-	public Persona(String nom, Coche coche) {
+	public Persona(String nom, Coche coche, Corazon corazon) {
+		this.corazon = new Corazon();
+	}
+	public Persona(String nom, Coche coche2) {
+		// TODO Auto-generated constructor stub
 	}
 	public static void viaja(){
 		

@@ -1,11 +1,24 @@
 package com.utng.ayc;
 
 public class Coche {
+	/**
+	 * CREA RELACIONES CON LAS OTRAS CLASES
+	 */
 	private Persona conductor;
-	
-	public Coche(Motor m){
+	private Motor motor;
+	/** 
+	 * CONSTRUCTOR
+	 * @param motor
+	 */
+	public Coche(Motor motor){
+		this.motor = motor;
+		
 		
 	}
+	/**
+	 * METODOS
+	 * @param conductor
+	 */
 	public void asignaConductor(Persona conductor){
 		
 	}
@@ -20,6 +33,18 @@ public class Coche {
 	}
 	public static void frena(){
 		
+	}
+	/**
+	 * @return the estaEncendido
+	 */
+	public boolean isEstaEncendido() {
+		return estaEncendido;
+	}
+	/**
+	 * @param estaEncendido the estaEncendido to set
+	 */
+	public void setEstaEncendido(boolean estaEncendido) {
+		this.estaEncendido = estaEncendido;
 	}
 	private boolean estaEncendido;
 	
